@@ -38,6 +38,7 @@ public class MonstroTeste01 {
                 ataque:%d
                 defesa:%d
                 """,monstro.nome,monstro.vida,monstro.ataque,monstro.defesa,monstro2.nome,monstro2.vida,monstro2.ataque,monstro2.defesa,monstro3.nome,monstro3.vida,monstro3.ataque,monstro3.defesa);
+        System.out.println(monstro.estaVivo(50));
 
     }
 }

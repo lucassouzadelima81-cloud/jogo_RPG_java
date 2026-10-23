@@ -16,8 +16,8 @@ public class HeroiTeste01 {
         heroi2.vida=80;
         heroi2.ataque=20;
         heroi2.defesa=3;
-        invetario.armasEquipadas="Espada";
         invetario.quantidadesPocoes=2;
+
         System.out.printf("""
                 heroi1
                 nome:%s
@@ -30,10 +30,9 @@ public class HeroiTeste01 {
                 vida:%d
                 ataque:%d
                 defesa:%d
-                -------------------
-                armasEquipadas:%s
-                quantidadesPocoes:%d
-                """,heroi.nome,heroi.vida,heroi.ataque,heroi.defesa,heroi2.nome,heroi2.vida,heroi2.ataque,heroi2.defesa,invetario.armasEquipadas,invetario.quantidadesPocoes);
+                """,heroi.nome,heroi.vida,heroi.ataque,heroi.defesa,heroi2.nome,heroi2.vida,heroi2.ataque,heroi2.defesa);
+        System.out.println(heroi.estaVivo(50));
+        System.out.println(heroi.calcularAtaqueTotal());
 
     }
 }
